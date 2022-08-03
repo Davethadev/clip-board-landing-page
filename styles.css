@@ -1,0 +1,125 @@
+html {
+    font-size: 5vw;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+    margin: 0 auto;
+    padding: 105px 0 35px;
+}
+
+.footer-logo {
+    width: 60px;
+    margin: 45px auto;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.icon {
+    width: 25px;
+} 
+
+.icon img {
+    width: 100%;
+}
+
+.icons {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.icons img {
+    width: 100%;
+}
+
+.features-icons {
+    width: 45px;
+    margin: 35px auto;
+}
+
+.features-icons img {
+    width: 100%;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px 12px;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.company-icon {
+    margin: 50px 0;
+}
+
+#header {
+    background-image: url('./images/bg-header-mobile.png');
+}
+
+.header-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header-text-2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-text-3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    margin: 15px 0 35px;
+}
+
+.features {
+    margin-top: 95px;
+}
+
+#feature {
+    margin-top: 35px;
+}
+
+.ios-btn {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.android-btn {
+    background-color: hsl(233, 100%, 69%);
+    
+}
+
+footer {
+    background-color: hsl(201, 11%, 66%);
+    padding: 10px 0;
+    margin-top: 85px;
+    /* background-color: hsl(210, 10%, 33%); */
+}
