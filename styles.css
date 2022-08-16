@@ -110,9 +110,9 @@ button {
 }
 
 .sub-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .subtext {
@@ -124,13 +124,15 @@ button {
 }
 
 .header-text {
-    font-size: 3.75rem;
+    font-size: 3rem;
     font-weight: 600;
+    color: hsl(201, 11%, 36%);
 }
 
 .header-text-2 {
     font-size: 24px;
     font-weight: 600;
+    padding: 0 15px;
 }
 
 .header-text-3 {
