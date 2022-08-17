@@ -169,14 +169,27 @@ footer {
 }
 
 @media(min-width: 1000px) {
+    body {
+        max-width: 75vw;
+        margin: 0 auto;
+    }
+
     .first-section {
         display: flex;
         gap: 65px;
+        background-color: aquamarine;
+        overflow: hidden;
+    }
+
+    .first-section .first-section-image {
+        position: relative;
+        right: 100px;
     }
 
     .first-subsection {
         padding-top: 35px;
         text-align: left;
+        margin-left: -55px;
     }
     
     .second-section {
@@ -193,6 +206,7 @@ footer {
     }
 
     .subtext {
+        padding: 0;
         width: 285px;
         line-height: 1.8;
         color: hsl(201, 11%, 66%);
