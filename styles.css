@@ -75,7 +75,7 @@ img {
 
 button {
     color: white;
-    font-weight: bold;
+    font-weight: 600;
     border: none;
     padding: 15px 12px;
     border-radius: 20px;
@@ -177,7 +177,6 @@ footer {
     .first-section {
         display: flex;
         gap: 65px;
-        background-color: aquamarine;
         overflow: hidden;
     }
 
